@@ -10,7 +10,7 @@ const Vaccination = () => {
           <div className="vaccination-item">
             <div className="vaccination-top">
               <img
-                src="http://localhost:3000/assets/images/testcovidsanitario.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/testcovidsanitario.jpg"
                 alt="rapid test"
                 className="vaccination-image"
               />
@@ -20,7 +20,7 @@ const Vaccination = () => {
           <div className="vaccination-item">
             <div className="vaccination-top">
               <img
-                src="http://localhost:3000/assets/images/pcr.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/pcr.jpg"
                 alt="pcr test"
                 className="vaccination-image"
               />
@@ -30,7 +30,7 @@ const Vaccination = () => {
           <div className="vaccination-item">
             <div className="vaccination-top">
               <img
-                src="http://localhost:3000/assets/images/drive-thru.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/drive-thru.jpg"
                 alt="drive thru test"
                 className="vaccination-image"
               />
@@ -40,7 +40,7 @@ const Vaccination = () => {
           <div className="vaccination-item">
             <div className="vaccination-top">
               <img
-                src="http://localhost:3000/assets/images/vaccination.avif"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/vaccination.avif"
                 alt="vaccination"
                 className="vaccination-image"
               />
