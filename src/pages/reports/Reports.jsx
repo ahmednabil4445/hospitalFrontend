@@ -23,7 +23,7 @@ const Reports = () => {
   // Fetch all reports
   useEffect(() => {
     const fetchReports = async () => {
-      const res = await axios.get("https://hospital-project-8hdf.onrender.com/patients/allReports");
+      const res = await axios.get("https://hospitalsystemapp.onrender.com/patients/allReports");
 
       setReports(res.data);
     };
@@ -33,7 +33,7 @@ const Reports = () => {
   // Fetch patients
   useEffect(() => {
     const fetchPatients = async () => {
-      const res = await axios.get("https://hospital-project-8hdf.onrender.com/patientauth");
+      const res = await axios.get("https://hospitalsystemapp.onrender.com/patientauth");
       setPatients(res.data);
     };
     fetchPatients();
@@ -77,11 +77,11 @@ const Reports = () => {
 
         if (arr.includes(path)) {
           res = await axios.get(
-            `https://hospital-project-8hdf.onrender.com/patients/reports/${path}`
+            `https://hospitalsystemapp.onrender.com/patients/reports/${path}`
           );
         } else {
           res = await axios.get(
-            `https://hospital-project-8hdf.onrender.com/patients/${path}/all_reports`
+            `https://hospitalsystemapp.onrender.com/patients/${path}/all_reports`
           );
         }
         setReports(res.data);
@@ -92,7 +92,7 @@ const Reports = () => {
 
   const handleRefreshClick = async (e) => {
     e.preventDefault();
-    const res = await axios.get("https://hospital-project-8hdf.onrender.com/patients/allReports");
+    const res = await axios.get("https://hospitalsystemapp.onrender.com/patients/allReports");
     setReports(res.data);
     history("/allReports");
   };
