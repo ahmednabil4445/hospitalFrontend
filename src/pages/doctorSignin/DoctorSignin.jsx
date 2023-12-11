@@ -17,7 +17,7 @@ const DoctorSignin = () => {
     setError(false);
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("https://hospital-project-8hdf.onrender.com/doctor/login", {
+      const res = await axios.post("https://hospitalsystemapp.onrender.com/doctor/login", {
         email: doctorEmailRef.current.value,
         password: passwordRef.current.value,
       });
