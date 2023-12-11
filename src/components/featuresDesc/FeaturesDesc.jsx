@@ -9,7 +9,7 @@ const FeaturesDesc = () => {
           <div className="fimagecontainer">
             <div className="fcolor">
               <img
-                src="http://localhost:3000/assets/images/best-services.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/best-services.jpg"
                 alt="best services"
                 className="fimage1"
               />
@@ -28,7 +28,7 @@ const FeaturesDesc = () => {
           <div className="fimagecontainer">
             <div className="fcolor">
               <img
-                src="http://localhost:3000/assets/images/depart.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/depart.jpg"
                 alt="depart services"
                 className="fimage2"
               />
