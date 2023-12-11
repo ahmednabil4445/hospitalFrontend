@@ -14,7 +14,7 @@ const PatientRegister = () => {
     setError(false);
     try {
       const res = await axios.post(
-        "https://hospital-project-8hdf.onrender.com/patientauth/register",
+        "https://hospitalsystemapp.onrender.com/patientauth/register",
         {
           firstName,
           lastName,
