@@ -16,7 +16,7 @@ const PatientInfo = () => {
     const fetchPatient = async () => {
       try {
         const res = await axios.get(
-          `https://hospital-project-8hdf.onrender.com/patientauth/patientInfo/${path}`
+          `https://hospitalsystemapp.onrender.com/patientauth/patientInfo/${path}`
         );
         setPatient(res.data);
         setPhone(res.data.phoneNo);
@@ -29,7 +29,7 @@ const PatientInfo = () => {
     e.preventDefault();
     setError(false);
     try {
-      await axios.put(`https://hospital-project-8hdf.onrender.com/patientauth/update/${path}`, {
+      await axios.put(`https://hospitalsystemapp.onrender.com/patientauth/update/${path}`, {
         phoneNo: phone,
       });
 
