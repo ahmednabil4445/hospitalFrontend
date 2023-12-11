@@ -17,7 +17,7 @@ const Setting = () => {
     setError(false);
     try {
       const res = await axios.put(
-        `https://hospital-project-8hdf.onrender.com/doctor/update/${doctor._id}`,
+        `https://hospitalsystemapp.onrender.com/doctor/update/${doctor._id}`,
         {
           doctorId: doctor._id,
           email,
