@@ -10,7 +10,7 @@ const Speciality = () => {
           <div className="speciality-item">
             <div className="sitem-top">
               <img
-                src="http://localhost:3000/assets/images/laboratory.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/laboratory.jpg"
                 alt="laboratory"
               />
             </div>
@@ -27,7 +27,7 @@ const Speciality = () => {
           <div className="speciality-item">
             <div className="sitem-top">
               <img
-                src="http://localhost:3000/assets/images/gyna.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/gyna.jpg"
                 alt="gynecology"
               />
             </div>
@@ -44,7 +44,7 @@ const Speciality = () => {
           <div className="speciality-item">
             <div className="sitem-top">
               <img
-                src="http://localhost:3000/assets/images/heighest.jpg"
+                src="https://hospital-frontend-seven.vercel.app/assets/images/heighest.jpg"
                 alt="machines"
               />
             </div>
