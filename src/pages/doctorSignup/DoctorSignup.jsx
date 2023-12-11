@@ -20,7 +20,7 @@ const DoctorSignup = () => {
     setError(false);
     setErrorMsg("");
     try {
-      const res = await axios.post("https://hospital-project-8hdf.onrender.com/doctor/register", {
+      const res = await axios.post("https://hospitalsystemapp.onrender.com/doctor/register", {
         firstName,
         lastName,
         email,
