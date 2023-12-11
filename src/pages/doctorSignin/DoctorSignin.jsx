@@ -41,7 +41,7 @@ const DoctorSignin = () => {
       </Link>
       <div className="doctor-signin-wrapper">
         <img
-          src="http://localhost:3000/assets/images/medwin-cares.png"
+          src="https://hospital-frontend-seven.vercel.app//assets/images/medwin-cares.png"
           alt="hospital-logo"
           className="doctor-signup-image"
         />
