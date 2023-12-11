@@ -22,7 +22,7 @@ const CreateReport = () => {
     console.log("clicked");
     try {
       const res = await axios.post(
-        `https://hospital-project-8hdf.onrender.com/patients/${path}/create_report`,
+        `https://hospitalsystemapp.onrender.com/patients/${path}/create_report`,
         {
           firstName: firstNameRef.current.value,
           lastName: lastNameRef.current.value,
